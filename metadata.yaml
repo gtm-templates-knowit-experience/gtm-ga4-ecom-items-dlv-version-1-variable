@@ -1,0 +1,6 @@
+homepage: "https://github.com/gtm-templates-knowit-experience/"
+documentation: "https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable"
+versions:
+  # Latest version
+  - sha: 453703a837bc66f4d71cbaa70a34233150a699c2
+    changeNotes: Initial release.
