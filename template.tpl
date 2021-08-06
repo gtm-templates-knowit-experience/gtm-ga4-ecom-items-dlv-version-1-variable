@@ -31,7 +31,9 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const dataLayer = require('copyFromDataLayer');
 const ecom = dataLayer('ecommerce', 1);
-return ecom.items;
+if(ecom) {
+  return ecom.items;
+}
 
 
 ___WEB_PERMISSIONS___
@@ -73,6 +75,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 8/5/2021, 3:38:58 PM
+Created on 8/6/2021, 4:27:14 PM
 
 
