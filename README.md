@@ -1,5 +1,5 @@
 # GA4 Ecommmerce Items Data Layer Version 1 Variable 
-This Variable for **Google Analytics 4 (GA4)** returns **GA4 Ecommerce Items** as **Data Layer Variable Version 1**. This ensures that Google Tag Manager will only access the most recent Item push into the Data Layer.
+This Variable (Web) for **Google Analytics 4 (GA4)** returns **GA4 Ecommerce Items** as **Data Layer Variable Version 1**. This ensures that Google Tag Manager will only access the most recent Item push into the Data Layer.
 
 The Variable removes the need for **[clearing the ecommerce object](https://developers.google.com/tag-manager/ecommerce-ga4#clearing_the_ecommerce_object)** in your implementation. If you have implemented **object clearing** you can also use this variable as extra "safety" in case the object clearing implementation breaks.
 
