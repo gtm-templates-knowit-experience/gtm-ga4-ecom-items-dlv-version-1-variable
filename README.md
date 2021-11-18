@@ -3,6 +3,8 @@ This Variable (Web) for **Google Analytics 4 (GA4)** returns **GA4 Ecommerce Ite
 
 The Variable removes the need for **[clearing the ecommerce object](https://developers.google.com/tag-manager/ecommerce-ga4#clearing_the_ecommerce_object)** in your implementation. If you have implemented **object clearing** you can also use this variable as extra "safety" in case the object clearing implementation breaks.
 
+This Template is available in the [**Google Tag Manager Template Gallery**](https://tagmanager.google.com/gallery/#/owners/gtm-templates-knowit-experience/templates/gtm-ga4-ecom-items-dlv-version-1-variable).
+
 ## How to use the Variable
 The Variable requires no setup. The Variable is reading data from the Data Layer Key Part **ecommerce.items**, but as Variable Version 1.
 
