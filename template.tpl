@@ -106,9 +106,9 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "CHECKBOX",
     "name": "removeNullfromItems",
-    "checkboxText": "Remove null Values from Items",
+    "checkboxText": "Remove null or empty Values from Items",
     "simpleValueType": true,
-    "help": "If items has null values (ex. \u003cstrong\u003eitem_category2: null\u003c/strong\u003e), these values can be reported as a \"null\" string.\n\u003cbr /\u003e\u003cbr /\u003e\nBy ticking this box, \u003cstrong\u003enull\u003c/strong\u003e values will be replaced with \u003cstrong\u003eundefined\u003c/strong\u003e, and discarded from being sent from GTM to GA4.",
+    "help": "If items has null values (ex. \u003cstrong\u003eitem_category2: null\u003c/strong\u003e), these values can be reported as a \"null\" string in GA4.\n\u003cbr /\u003e\u003cbr /\u003e\nBy ticking this box, \u003cstrong\u003enull\u003c/strong\u003e \u0026 \u003cstrong\u003eempty\u003c/strong\u003e values will be replaced with \u003cstrong\u003eundefined\u003c/strong\u003e, and discarded from being sent from GTM to GA4.",
     "enablingConditions": [
       {
         "paramName": "ecomParam",
@@ -179,7 +179,7 @@ if(ecom) {
       if(data.removeNullfromItems && ecom) {
         ecom.forEach(function(object){
           for(let key in object) {
-            if(object[key] === null)
+            if(object[key] === null || object[key] === '')
               object[key] = undefined;
             }
       });
