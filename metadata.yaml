@@ -2,9 +2,11 @@ homepage: "https://github.com/gtm-templates-knowit-experience/"
 documentation: "https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable"
 versions:
   # Latest version
+  - sha: 9c9d8bdf3974b4d038a13259cbefe827c2d6e4ee
+    changeNotes: Added the possibility to remove empty values from Items (in addition to null values).
+  # Older versions
   - sha: 783ab6a8d0f33efd71db4c954ec8cd5e19ef9369
     changeNotes: Added support for all standard ecommerce parameters, and the possibility to remove null values from Items.
-  # Older versions
   - sha: 453703a837bc66f4d71cbaa70a34233150a699c2
     changeNotes: Initial release.
     
