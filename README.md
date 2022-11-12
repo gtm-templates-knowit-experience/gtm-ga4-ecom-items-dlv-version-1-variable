@@ -12,7 +12,7 @@ Select the parameter you want to as output. The Variable is reading data from th
 
 If you select **items**, you also have the option to remove **null** values if that is an issue with your implementation.
 
-![GA4 Ecommmerce Items Data Layer Version 1 Variable](https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable/blob/main/images/ga4-ecom-items-dlv-version-1-variable-v2.png)
+![GA4 Ecommmerce Items Data Layer Version 1 Variable](https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable/blob/main/images/ga4-ecom-items-dlv-version-1-variable-v3.png)
 
 **The following standard ecommerce parameters are supported:**
 | Parameter Name  | Data Layer |
