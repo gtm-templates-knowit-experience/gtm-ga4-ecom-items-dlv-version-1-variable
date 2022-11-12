@@ -3,14 +3,14 @@ This Variable (Web) for **Google Analytics 4 (GA4)** returns **GA4 Ecommerce Ite
 
 If you haven't implemented **[clearing of the ecommerce object](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm#clear_the_ecommerce_object)**, this Variable helps you overcome issues that can cause. If you have implemented **object clearing** you can also use this variable as extra "safety" in case the object clearing implementation breaks.
 
-In addition, you can also use this Variable to remove **null** values from Items. **null** Values in Items can cause **null** being sent as a string, which can cause data issues.
+In addition, you can also use this Variable to remove **null** and **empty** values from Items. **null** values in Items can cause **null** being sent as a string, which can cause data issues.
 
 This Template is available in the [**Google Tag Manager Template Gallery**](https://tagmanager.google.com/gallery/#/owners/gtm-templates-knowit-experience/templates/gtm-ga4-ecom-items-dlv-version-1-variable).
 
 ## How to use the Variable
 Select the parameter you want to as output. The Variable is reading data from the Data Layer Key Part **ecommerce.items** if you select **items**, but as Variable Version 1.
 
-If you select **items**, you also have the option to remove **null** values if that is an issue with your implementation.
+If you select **items**, you also have the option to remove **null** and **empty** values if that is an issue with your implementation.
 
 ![GA4 Ecommmerce Items Data Layer Version 1 Variable](https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable/blob/main/images/ga4-ecom-items-dlv-version-1-variable-v3.png)
 
